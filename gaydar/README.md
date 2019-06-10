@@ -57,18 +57,18 @@ HomePage For Desktop (sketch)
 
 HomePage For Mobile (sketch)
 
-! [Homepage] (https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg)
+![HomePage](https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg)
 
 
 User Review Cards (sketch & inspiration)
 
-![HomePage] (https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg)
+![HomePage](https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png)
 
 Listings Layout (sketch & inspiration)
 
-! [Homepage] (https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg)
+![HomePage](https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png)
 
