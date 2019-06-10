@@ -13,4 +13,13 @@ HomePage For Desktop (sketch)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206344-c211f480-8b72-11e9-9300-24b9aba1158c.jpg)
 
+
+User Review Cards (inspiration)
+
+![HomePage](https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png)
+
+Listings Layout (inspiration)
+
+![HomePage](https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png)
+
 ### 
