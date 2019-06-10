@@ -6,6 +6,6 @@ An app that lists accomodations (hotels, Airbnbs, etc) that cater to the LGBT co
 ### Initial Mockups
 
 ![GitHub Logo](src/images/Screen Shot 2019-06-10 at 11.15.26 AM.png)
-Format: ![Alt Text](url)
+Format: ![Alt Text](src/images/Screen Shot 2019-06-10 at 11.15.26 AM.png)
 
 ### 
