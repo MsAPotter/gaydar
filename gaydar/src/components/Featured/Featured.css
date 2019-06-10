@@ -1,0 +1,19 @@
+.featured-icons {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(88, 86, 86, 0.2)
+}
+.featured-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.featured-location {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
