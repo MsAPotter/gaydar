@@ -41,6 +41,10 @@ The command to clone a repository with git is git clone <url_for_the_repo_you_wa
 
 
 
+
+
+
+
 ### Initial Mockups
 
 HomePage For Desktop (Design inspiration)
@@ -51,12 +55,20 @@ HomePage For Desktop (sketch)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206344-c211f480-8b72-11e9-9300-24b9aba1158c.jpg)
 
+HomePage For Mobile (sketch)
 
-User Review Cards (inspiration)
+! [Homepage] (https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg)
+
+
+User Review Cards (sketch & inspiration)
+
+![HomePage] (https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png)
 
-Listings Layout (inspiration)
+Listings Layout (sketch & inspiration)
+
+! [Homepage] (https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png)
 
