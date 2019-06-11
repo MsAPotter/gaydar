@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 
 class Featured extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {}
+    }
+
+
     render() {
+        // if rating = 5,
+        // display cards of first 3 listings
+
         return (
             <div>
-                {/* <Link to={"/Showpage/" + stay.name}>
-                <div className="featured-icons">
-                    <p>Price</p>
-                    <img src={stay.image} alt="accomodation image" className="featured-image"/>
-                    <h5 className="featured-location">Location</h5>
-                </div>
-                </Link> */}
+                
             </div>
         );
     }

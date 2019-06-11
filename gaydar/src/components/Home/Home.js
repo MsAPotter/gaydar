@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import './Home.css';
 import { Link} from 'react-router-dom';
-// import Featured from '../Featured/Featured';
+// import Featured from '../Featured/Featured.js';
+
 
 class Home extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
             <div>
@@ -25,7 +30,7 @@ class Home extends Component {
                     <h1 className="featured-title">Featured Stays</h1>
 
                     {/* let featured = [];
-                    for (let i=0; i<this.props.feature; i++) {
+                    for (let i=0; i < 3; i++) {
                         featured.push(<Featured />)
                     } */}
                     {/* return <div className="featured-icons">{featured}</div> */}

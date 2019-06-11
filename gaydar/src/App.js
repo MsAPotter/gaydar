@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect, NavLink } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
-import Featured from './components/Featured/Featured';
+import Listing from './components/Listing/Listing';
+import NotFound from './components/NotFound/NotFound.js';
+// import axios from 'axios';
 
 class App extends Component {
   constructor(props) {
@@ -42,14 +44,18 @@ class App extends Component {
             )}
             />
 
-            {/* <Route
+            <Route
             exact path="/listings"
             render={routerProps => (
-              <Accommodations
+              <Listing
               {...routerProps}
               {...this.state} />
             )}
-            /> */}
+            />
+
+            <Route
+            render={() => <NotFound /> } 
+            />
 
           </Switch>
         </main>
