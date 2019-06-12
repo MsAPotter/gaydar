@@ -107,57 +107,7 @@ class Form extends Component {
                     name="url"
                     onChange={this.handleInput}></input>
                     </div>
-
-                    {/* <div className="each-input-container">
-                    <label className="label">Review</label>
-                    <textarea 
-                    className="lodging-review-input-field"
-                    type="textarea"
-                    placeholder="This place was amazing!"
-                    name="review"
-                    onChange={this.handleInput}></textarea>
-                    </div>
-
-                    <div className="each-input-container">
-                    <label className="label">Username</label>
-                    <input  
-                    className="input-field"
-                    type="text"
-                    placeholder="Mickey Mouse"
-                    name="user_name"
-                    onChange={this.handleInput}></input>
-                    </div>
-
-                    <div className="each-input-container">
-                    <label className="label">Date of trip</label>
-                    <input  
-                    className="input-field"
-                    type="text"
-                    placeholder="4/1/2020"
-                    name="date"
-                    onChange={this.handleInput}></input>
-                    </div>
-
-                    <div className="each-input-container">
-                    <label className="label">Rating</label>
-                    <input  
-                    className="input-field"
-                    type="text"
-                    placeholder="1-5 out of 5 stars"
-                    name="rating"
-                    onChange={this.handleInput}></input>
-                    </div>
-
-                    <div className="each-input-container">
-                    <label className="label">Nights Stayed</label>
-                    <input  
-                    className="input-field"
-                    type="text"
-                    placeholder="enter number of nights"
-                    name="nights_stayed"
-                    onChange={this.handleInput}></input>
-                    </div> */}
-
+                    
                     <div className="each-input-container">
                     <input 
                     className="new-lodging-submit-button"

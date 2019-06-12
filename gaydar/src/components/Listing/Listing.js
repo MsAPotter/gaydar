@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Listing.css';
-import {Link} from 'react-router-dom';
 // import axios from 'axios';
 
 class Listing extends Component {

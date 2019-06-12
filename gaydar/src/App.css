@@ -5,12 +5,22 @@
 }
 
 .App-nav {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   background: #ffffff;
   height: 10vh;
   /* color: #383737; */
   align-items: center;
+  padding: 20px;
+}
+.nav-left {
+  float: left;
+}
+.nav-right {
+  float: right;
+}
+.fix {
+  clear: both;
 }
 .active-link {
 text-decoration: none;
