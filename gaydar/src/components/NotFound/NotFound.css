@@ -1,19 +1,31 @@
-.home-image {
+.overlay {
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+}
+
+.nf-image {
     background-image: url('https://amp.insider.com/images/5a70b4a046a2881d008b465e-750-562.jpg');
     background-repeat: none;
     background-size: cover;
     height: 90vh;
 }
-.home-container {
+.nf-container {
     display: flex;
 }
-.home-main-blurb {
-    background-color: rgba(172, 167, 167, 0.5);
+.nf-main-blurb {
+    background-color: rgba(228, 224, 224, 0.5);
     padding: 30px;
-    width: 100vw;
-    margin-top: 25vh;
+    width: 50vw;
+    margin: 25vh auto 0 auto;
 }
-.home-title {
+.nf-title {
     font-size: 3rem;
     font-weight: bold;
     color: #ffffff;
@@ -21,7 +33,7 @@
     letter-spacing: .1em;
 }
 
-.home-catch-phrase {
+.nf-catch-phrase {
     font-size: 1.5rem;
     margin: 10px;
     text-align: center;

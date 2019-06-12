@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import Listing from './components/Listing/Listing';
 import NotFound from './components/NotFound/NotFound.js';
+import Form from './components/Form/Form.js';
 // import axios from 'axios';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
     super(props)
     this.state = {}
   }
+
 
   render() {
     console.log('App: render');
@@ -52,6 +54,24 @@ class App extends Component {
               {...this.state} />
             )}
             />
+
+            <Route
+            exact path="/newlisting"
+            render={routerProps => (
+              <Form
+              {...routerProps}
+              {...this.state} />
+            )}
+            />
+
+            {/* <Route
+            exact path="/addreview"
+            render={routerProps => (
+              <UserReview
+              {...routerProps}
+              {...this.state} />
+            )}
+            /> */}
 
             <Route
             render={() => <NotFound /> } 
