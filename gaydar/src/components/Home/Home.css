@@ -1,7 +1,7 @@
 .home-image {
-    /* background-image: url('https://amp.insider.com/images/5a70b4a046a2881d008b465e-750-562.jpg'); */
+    background-image: url('https://amp.insider.com/images/5a70b4a046a2881d008b465e-750-562.jpg');
     /* background-image: url('https://images.unsplash.com/photo-1559653794-9868846db2f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80'); */
-    background-image: url('https://images.unsplash.com/photo-1529539103829-49842a90c13e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1529539103829-49842a90c13e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80'); */
     background-repeat: none;
     background-size: cover;
     height: 90vh;

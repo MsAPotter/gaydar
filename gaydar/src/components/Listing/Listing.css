@@ -1,19 +1,75 @@
-.listing-icons {
+.listings-container {
     display: flex;
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
-    height: 100px;
-    width: 100px;
-    box-shadow: 0 4px 8px 0 rgba(88, 86, 86, 0.2)
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.single-listing-container {
+    display: flex;
+    justify-content: space-between;
+	/* text-align: center; */
+    height: 400px;
+    background-color: #e7e5e5;
+    box-shadow: 7px 10px 12px -5px rgba(0,0,0,0.56); 
+    margin: 20px auto;
+    width: 90vw;
+    align-items: center; 
 }
 .listing-image {
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* width: 500px; */
+    width: 30em;
+    /* height: 300px; */
+    height: 20em;
+    margin-left: 3vw;
+}
+.listing-data {
+    display: flex;
+    margin: 0 3vw 0 3vw;
+    height: 300px;
+    width: 50em;
+    flex-direction: column;
+    position: relative;
+}
+ul, a {
+    list-style-type: none;
+    color: #504b4b;
+}
+
+.listing-name {
+    font-size: 22px;
+    font-weight: bold;
 }
 .listing-location {
-    text-align: center;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
+    font-size: 18px;
 }
+.listing-review {
+    margin-top: 40px;
+}
+.review-card {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 40px 0 10px 0;
+}
+.read-more-reviews-button, .add-a-review-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #9c9a9a;
+    border: none;
+    font-family: 'Cardo', serif;
+    align-self: flex-end;
+    /* flex-wrap: wrap; */
+}
+.read-more-reviews-button {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+ }
+ .add-a-review-button {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+ }
+

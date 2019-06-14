@@ -4,8 +4,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import Listing from './components/Listing/Listing';
 import NotFound from './components/NotFound/NotFound.js';
-import Form from './components/Form/Form.js';
-import UserReview from './components/UserReview/UserReview.js';
+import AddListingForm from './components/AddListingForm/AddListingForm.js';
+import UserReviewForm from './components/UserReviewForm/UserReviewForm.js';
 // import axios from 'axios';
 
 class App extends Component {
@@ -32,7 +32,7 @@ class App extends Component {
 
             <nav className='nav-right'>
             <NavLink className='active-link' to='/newlisting'>
-              Add a Place
+              Add a Listing
             </NavLink>
             <NavLink className='active-link' to='/addreview'>
               Add a Review
@@ -71,7 +71,7 @@ class App extends Component {
             <Route
             exact path="/newlisting"
             render={routerProps => (
-              <Form
+              <AddListingForm
               {...routerProps}
               {...this.state} />
             )}
@@ -80,7 +80,7 @@ class App extends Component {
             <Route
             exact path="/addreview"
             render={routerProps => (
-              <UserReview
+              <UserReviewForm
               {...routerProps}
               {...this.state} />
             )}

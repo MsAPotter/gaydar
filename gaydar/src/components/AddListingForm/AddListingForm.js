@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../Form/Form.css';
+import './AddListingForm.css';
 
-class Form extends Component {
+class AddListingForm extends Component {
     constructor(props) {
         super(props)
 
@@ -10,11 +10,8 @@ class Form extends Component {
             name: '',
             location:'',
             url:'',
-            review:'',
-            user_name:'',
-            date:'',
-            rating:'',
-            nights_stayed:''
+            breakfast: Boolean,
+            pets: Boolean
         }
 
         this.handleInput = this.handleInput.bind(this);
@@ -32,17 +29,29 @@ class Form extends Component {
     }
 
     handleSubmit() {
-        const URL = 'http://localhost:4000/api/accomodations/';
+        // const URL = 'http://localhost:4000/api/accomodations/';
+        const URL = 'https://gaydar-api.herokuapp.com/api/accomodations/'
+
+        // if (this.state.breakfast == "yes" || "Yes" || null) {
+        //     this.state.breakfast = True
+        // } else {
+        //     this.state.breakfast = False
+        // }
+        // if (this.state.pets == "yes" || "Yes" || null) {
+        //     this.state.pets == True
+        // } else {
+        //     this.state.pets = False
+        // }
+        // console.log(this.state.breakfast)
+        // console.log(this.state.pets)
+
         axios
         .post(URL, {
             name: this.state.name,
             location:this.state.location,
             url: this.state.url,
-            review: this.state.review,
-            user_name: this.state.user_name,
-            date: this.state.date,
-            rating: this.state.rating,
-            nights_stayed: this.state.nights_stayed
+            breakfast: this.state.breakfast,
+            pets: this.state.pets
         })
         .then(function(response) {
             console.log(response);
@@ -56,6 +65,7 @@ class Form extends Component {
         return (
             <div>
                 <p className="add-blurb">Add listings you find in your travels to help others! </p> 
+
 
                 <form className="form">
                     <div className="each-input-container">
@@ -94,7 +104,7 @@ class Form extends Component {
                     className="input-field"
                     type="text"
                     placeholder="Yes or No"
-                    name="url"
+                    name="breakfast"
                     onChange={this.handleInput}></input>
                     </div>
 
@@ -104,7 +114,7 @@ class Form extends Component {
                     className="input-field"
                     type="text"
                     placeholder="Yes or No"
-                    name="url"
+                    name="pets"
                     onChange={this.handleInput}></input>
                     </div>
                     
@@ -122,4 +132,4 @@ class Form extends Component {
     }
 }
 
-export default Form;
+export default AddListingForm;

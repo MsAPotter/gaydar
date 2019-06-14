@@ -1,17 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .App-nav {
-  /* display: flex; */
-  /* justify-content: center; */
   background: #ffffff;
-  height: 10vh;
   /* color: #383737; */
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 .nav-left {
   float: left;

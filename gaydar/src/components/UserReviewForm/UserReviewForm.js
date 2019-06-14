@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './UserReview.css';
+import './UserReviewForm.css';
 
-class UserReview extends Component {
+class UserReviewForm extends Component {
     constructor(props) {
         super(props)
 
@@ -150,4 +150,4 @@ class UserReview extends Component {
     }
 }
 
-export default UserReview;
+export default UserReviewForm;

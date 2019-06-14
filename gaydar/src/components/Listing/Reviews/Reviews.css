@@ -1,0 +1,27 @@
+.each-review-card {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin: 40px 0 10px 0;
+}
+.single-review-card {
+    display: flex;
+}
+.each-review {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 66%;
+    /* margin: 40px 0 10px 0; */
+}
+.review-aside {
+    border-left: 5px solid rgb(165, 163, 163);
+    display: flex;
+    justify-content: center;
+    width: 34%;
+}
+.review-rating-title {
+    font-size: 16px;
+}
+.review-rating, .review-nights {
+    font-weight: bold;
+    font-size: 18px;
+}
