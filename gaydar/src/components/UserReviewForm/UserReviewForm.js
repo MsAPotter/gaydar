@@ -33,7 +33,8 @@ class UserReviewForm extends Component {
     handleSubmit() {
 
         let lodgingData = [];
-        const URL1 = 'http://localhost:4000/api/accomodations/';
+        // const URL1 = 'http://localhost:4000/api/accomodations/';
+        const URL1 = 'https://gaydar-api.herokuapp.com/api/accomodations/';
         axios.get(URL1)
             .then((res) => {
                 // console.log(res.data)
@@ -49,7 +50,8 @@ class UserReviewForm extends Component {
                 if (lodgingData[i].name === this.state.accomodation_name) {
                     // console.log("the true part is running")
                     let grabId = lodgingData[i]._id
-                    const URL2 = `http://localhost:4000/api/accomodations/:${grabId}/reviews/`;
+                    // const URL2 = `http://localhost:4000/api/accomodations/:${grabId}/reviews/`;
+                    const URL2 = `https://gaydar-api.herokuapp.com/api/accomodations/:${grabId}/reviews/`;
                     // console.log(URL2)
 
                     axios
