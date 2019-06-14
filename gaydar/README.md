@@ -8,6 +8,21 @@ A user-driven app that lists accomodations (hotels, Airbnbs, etc) that cater to 
 React, axios
 
 
+## Features
+
+- User adds accommodation
+
+- User adds accommodation review
+
+- Mobile version (React Native) --> Future addition
+
+- Filter: filter all listings by: Breakfast, Pets, Location --> Future addition
+
+- User authentication --> possible future addition
+
+- Web scraping (to get photo of accommodation listing, that is added to listings page)  --> Future addition
+
+
 ## Design Mockups
 
 User Experience / App Flow process
