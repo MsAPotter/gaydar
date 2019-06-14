@@ -10,9 +10,13 @@ React, axios
 
 ## Features
 
-- User adds accommodation
+- User can add an accommodation they like
 
-- User adds accommodation review
+- User can add an accommodation review (click Navbar link or "add a review" button under each listing
+
+- Under Accommodations, you can click on the name of the listing, and it will take you to that listing's official website
+
+- Under each listing, when you click on "read more reviews", a toggle will open a list of all the reviews associated with that accommodation --> Future addition
 
 - Mobile version (React Native) --> Future addition
 
