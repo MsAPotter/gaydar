@@ -8,26 +8,48 @@ A user-driven app that lists accomodations (hotels, Airbnbs, etc) that cater to 
 React, axios
 
 
-### Design Mockups
+## Design Mockups
+
+User Experience / App Flow process
+
+https://user-images.githubusercontent.com/47091947/59512135-13c5c200-8e86-11e9-99b9-67c12ce565f1.jpg
+
+Featres (ideas)
+
+https://user-images.githubusercontent.com/47091947/59512165-250ece80-8e86-11e9-92b0-6eba690e796f.jpg
+
+
 
 HomePage For Desktop (Design inspiration)
 
 ![HomePage](https://user-images.githubusercontent.com/47091947/59206105-3d26db00-8b72-11e9-80ed-06206e01e742.png)
 
 HomePage For Desktop (sketch)
+
 https://user-images.githubusercontent.com/47091947/59206344-c211f480-8b72-11e9-9300-24b9aba1158c.jpg
 
 HomePage For Mobile (sketch)
+
 https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg
 
 
 User Review Cards (sketch & inspiration)
+
 https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg
+
 https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png
 
 Listings Layout (sketch & inspiration)
+
 https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg
+
 https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png
+
+
+Listing drop-down toggle layout
+
+https://user-images.githubusercontent.com/47091947/59512177-30fa9080-8e86-11e9-8421-7f983560a583.jpg
+
 
 
 
