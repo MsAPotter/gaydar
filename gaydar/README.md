@@ -1,16 +1,34 @@
 ## App Summary
 
-An app that lists accomodations (hotels, Airbnbs, etc) that cater to the LGBT community. Users can add listings and reviews they find, to help others in their travels.
+A user-driven app that lists accomodations (hotels, Airbnbs, etc) that cater to the LGBT community. Users can add listings and reviews they find, to help others in their travels.
 
 
 ## Technologies Used
 
-Mongo, Mongoose, Express, React, Node.js, Body-Parser, Cors
+React, axios
 
 
-## Approach
+### Design Mockups
 
-The app is accomodation-centric. There are three models - Accomodation, Review, and User - and they are nested within each other.
+HomePage For Desktop (Design inspiration)
+
+![HomePage](https://user-images.githubusercontent.com/47091947/59206105-3d26db00-8b72-11e9-80ed-06206e01e742.png)
+
+HomePage For Desktop (sketch)
+https://user-images.githubusercontent.com/47091947/59206344-c211f480-8b72-11e9-9300-24b9aba1158c.jpg
+
+HomePage For Mobile (sketch)
+https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg
+
+
+User Review Cards (sketch & inspiration)
+https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg
+https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png
+
+Listings Layout (sketch & inspiration)
+https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg
+https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png
+
 
 
 ## Installation Instructions
@@ -38,38 +56,3 @@ Copy the link by highlighting it and hitting cmd + C or clicking on the clipboar
 Open up a new terminal window and navigate to your sandbox directory
 
 The command to clone a repository with git is git clone <url_for_the_repo_you_want_to_clone>. You can optionally pass in a name for the repository if you would like to name the working directory when you clone don't worry about that right now though. Change in to your new directory and run git log to see the commit history.
-
-
-
-
-
-
-
-### Initial Mockups
-
-HomePage For Desktop (Design inspiration)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59206105-3d26db00-8b72-11e9-80ed-06206e01e742.png)
-
-HomePage For Desktop (sketch)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59206344-c211f480-8b72-11e9-9300-24b9aba1158c.jpg)
-
-HomePage For Mobile (sketch)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59225516-ef749780-8b9e-11e9-9740-adddfba84441.jpg)
-
-
-User Review Cards (sketch & inspiration)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59225642-45e1d600-8b9f-11e9-97c3-8148a8adaf62.jpg)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59206626-567c5700-8b73-11e9-9978-a9c4b83331d8.png)
-
-Listings Layout (sketch & inspiration)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59225699-6742c200-8b9f-11e9-9e05-cca08c7b2612.jpg)
-
-![HomePage](https://user-images.githubusercontent.com/47091947/59206669-6d22ae00-8b73-11e9-9b4c-26a2f00bdce0.png)
-
-
