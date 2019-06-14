@@ -10,6 +10,7 @@ class AddListingForm extends Component {
             name: '',
             location:'',
             url:'',
+            image:'',
             breakfast: Boolean,
             pets: Boolean
         }
@@ -50,6 +51,7 @@ class AddListingForm extends Component {
             name: this.state.name,
             location:this.state.location,
             url: this.state.url,
+            image: this.state.image,
             breakfast: this.state.breakfast,
             pets: this.state.pets
         })
@@ -95,6 +97,16 @@ class AddListingForm extends Component {
                     type="text"
                     placeholder="htttp://www.greatescape.com"
                     name="url"
+                    onChange={this.handleInput}></input>
+                    </div>
+
+                    <div className="each-input-container">
+                    <label className="label">Image</label>
+                    <input  
+                    className="input-field"
+                    type="text"
+                    placeholder="http://www.thisawesomesite.com/1234.jpg"
+                    name="image"
                     onChange={this.handleInput}></input>
                     </div>
 
